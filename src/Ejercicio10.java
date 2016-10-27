@@ -5,7 +5,7 @@ import java.io.*;
 public class Ejercicio10 {
     public static void main(String[] args) {
         Random r = new Random();
-        int adivinar = r.nextInt(101);
+        int adivinar = r.nextInt(100);
         int i = 0;
         int apuesta = input("Adivina el número secreto entre 0 y 100. ¿Que número es?");
         while (adivinar != apuesta) {
