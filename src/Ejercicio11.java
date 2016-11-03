@@ -28,6 +28,7 @@ public class Ejercicio11 {
 
             if (adivinar == apuesta){
                 System.out.println("Has acertado el numero y has ganado!");
+
             }
 
 
