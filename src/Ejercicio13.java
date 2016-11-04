@@ -26,12 +26,14 @@ public class Ejercicio13 {
 
             if (numero > 0) {
                 positivos++;
+                System.out.println("El numero es positivo");
 
             }
 
             if (numero < 0) {
 
                 negativos++;
+                System.out.println("El numero es negativo");
 
             }
             System.out.println("introduce un numero");
